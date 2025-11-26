@@ -29,11 +29,6 @@ body {
     transition: transform 1s ease-in-out;
 }
 
-.display-pic:hover{
-    transform: translateY(5px) scale(1.135);
-    z-index: 999;
-}
-
 .certificate{
     width: 100%;
     margin-top: 15px;
@@ -316,6 +311,7 @@ footer {
         align-self: center;
     }
 }
+
 
 
 

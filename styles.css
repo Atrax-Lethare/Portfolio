@@ -12,6 +12,28 @@ body {
     background-color: #f9f9f9;
 }
 
+.display{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.display-pic{
+    width: 30%;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+}
+
+.display-pic:hover{
+    transform: translateY(5px) scale(1.135);
+    z-index: 999;
+}
+
 .certificate{
     width: 100%;
     margin-top: 15px;
@@ -294,5 +316,6 @@ footer {
         align-self: center;
     }
 }
+
 
 

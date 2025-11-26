@@ -310,7 +310,11 @@ footer {
         position: static;
         align-self: center;
     }
+    .display{
+        flex-direction: column;
+    }
 }
+
 
 
 

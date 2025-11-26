@@ -317,9 +317,13 @@ footer {
         display: none;
     }
     .display-pic{
-        width: 90%;
+        width: 100%;
+    }
+    .project-card p{
+        text-align: justify;
     }
 }
+
 
 
 

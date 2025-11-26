@@ -7,7 +7,6 @@
      });
  });
 
-// Basic form submission handler (logs to console for demo)
 document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault();
     alert('Thank you for your message! (This is a demo - in production, it would send via email/API.)');
@@ -41,3 +40,5 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0 }); 
 
 observer.observe(trigger);
+
+

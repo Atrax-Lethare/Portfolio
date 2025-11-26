@@ -316,7 +316,11 @@ footer {
     #nav-profile{
         display: none;
     }
+    .display-pic{
+        width: 90%;
+    }
 }
+
 
 
 

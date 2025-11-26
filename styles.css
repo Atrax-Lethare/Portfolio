@@ -313,7 +313,11 @@ footer {
     .display{
         flex-direction: column;
     }
+    #nav-profile{
+        display: none;
+    }
 }
+
 
 
 

@@ -7,19 +7,6 @@
      });
  });
 
-document.querySelector('form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    alert('Thank you for your message! (This is a demo - in production, it would send via email/API.)');
-});
-
-document.getElementsByClassName("project-card")[1].addEventListener("click", function () {
-    alert("Project yet to be uploaded.");
-});
-
-document.getElementsByClassName("project-card")[2].addEventListener("click", function () {
-    alert("Project yet to be uploaded.");
-});
-
 const trigger = document.getElementById('profile');
 const popup = document.getElementById('nav-profile');
 
@@ -36,6 +23,5 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0 }); 
 
 observer.observe(trigger);
-
 
 
